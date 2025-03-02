@@ -1,0 +1,43 @@
+body{
+     text-align: center;
+}
+
+.box{
+     height: 200px;
+     width: 200px;
+     border-radius: 20%;
+     border: solid black 10px;
+     margin: 2.2rem;
+}
+
+
+.box-container{
+     display: flex;
+     justify-content: center;
+}
+
+.yellow{
+     background-color: #f99b45;
+}
+.red{
+     background-color: #d95980;
+}
+.purple{
+     background-color: #819ff4;
+}
+
+.green{
+     background-color: #63aac0;
+}
+
+.gameFlash{
+     background-color: white;
+}
+.userFlash{
+     background-color: lightgreen;
+}
+.higest-score{
+     position: absolute;
+     top: 15px;
+     left: 25px;
+}
